@@ -1,0 +1,80 @@
+body, div, h1, h2, h3, p {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    color: #000000; 
+}
+/* fullscreen */
+html {
+    height:100%;
+}
+body {
+    height:100%;
+    margin: 0px;
+    overflow:hidden; /* disable scrollbars */
+}
+body {
+  font-size: 10pt;
+  background : #ffffff; 
+}
+table,tr,td {
+    font-size: 10pt;
+    border-color : #777777;
+    background : #dddddd; 
+    color: #000000; 
+    border-style : solid;
+    border-width : 2px;
+    padding: 5px;
+    border-collapse:collapse;
+}
+h1 {
+    font-size: 18pt;
+}
+h2 {
+    font-size: 14pt;
+}
+.warning { 
+    font-weight: bold;
+} 
+/* fix for scroll bars on webkit & Mac OS X Lion */ 
+::-webkit-scrollbar {
+    background-color: rgba(0,0,0,0.5);
+    width: 0.75em;
+}
+::-webkit-scrollbar-thumb {
+    background-color:  rgba(255,255,255,0.5);
+}
+a {
+    text-decoration: none;
+}
+a,button,input,select,textarea,em,a:focus,button:focus,input:focus,select:focus,textarea:focus,em:focus[onclick] {
+         outline: 0;
+         -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+input[type="submit"], input[type="reset"], input[type="button"], button{
+     -webkit-appearance: none;/*去掉苹果的默认UI来渲染按钮*/
+}
+/*目录栏*/
+.view_change{
+    position: fixed; 
+    z-index: 9999; 
+    bottom:0; 
+    left: 0; 
+    width: 100%; 
+    height: auto; 
+    background-color: rgba(0,0,0,0.6);
+    border-top: 1px solid #000;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset; 
+    text-align: center;
+}
+.pos-txt{
+    color: rgb(219, 219, 219);
+    text-shadow: rgb(0, 0, 0) 0px 1px 1px;
+    position: absolute;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    z-index: 9;
+    max-width: 316px;
+    left: 16px;
+    top: 20px;
+}

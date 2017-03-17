@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tour start="node1">
+    <!-- 客厅 -->
+    <panorama id="node1">
+        <view fovmode="0" pannorth="0">
+            <start pan="5.5" fov="80" tilt="1.5" />
+            <min pan="0" fov="80" tilt="-90" />
+            <max pan="360" fov="80" tilt="90" />
+        </view>
+        <userdata title="" datetime="" description="" copyright=""
+        tags="" author="" source="" comment="" info="" longitude="" latitude=""
+        />
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入厨房" target="" pan="20.1252" skinid="keting" url="{node2}" id="Point01" tilt="-1.72088"/>
+        </hotspots>
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入测试" target="" pan="350.1252" skinid="ting" url="{node2}" id="Point07" tilt="-1.72088"/>
+        </hotspots>
+        <media/>
+        <!-- tilesize="700" -->
+        <input tile0url="img/keting_o_0.jpg" tile5url="img/keting_o_5.jpg" tilesize="1200" tile4url="img/keting_o_4.jpg" tile3url="img/keting_o_3.jpg" tilescale="1.008333333333333" tile2url="img/keting_o_2.jpg" tile1url="img/keting_o_1.jpg">
+        </input>
+        <!-- speed="0.200"   播放速度 -->
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="1" returntohorizon="0.000"
+        delay="5.00" />
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0"
+        invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"
+        />
+    </panorama>
+    <!-- 厨房 -->
+    <panorama id="node2">
+        <view fovmode="0" pannorth="0">
+            <start pan="5.5" fov="80" tilt="1.5" />
+            <min pan="0" fov="80" tilt="-90" />
+            <max pan="360" fov="80" tilt="90" />
+        </view>
+        <userdata title="" datetime="" description="" copyright=""
+        tags="" author="" source="" comment="" info="" longitude="" latitude=""
+        />
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入主卧" target="" pan="-0.204688" skinid="kitchen" url="{node3}" id="Point02" tilt="1.43251"/>
+        </hotspots>
+        <media/>
+        <!-- tilesize="700" -->
+        <input tile0url="img/canting_o_0.jpg" tile5url="img/canting_o_5.jpg" tilesize="1200" tile4url="img/canting_o_4.jpg" tile3url="img/canting_o_3.jpg" tilescale="1.008333333333333" tile2url="img/canting_o_2.jpg" tile1url="img/canting_o_1.jpg">
+        </input>
+        <!-- speed="0.200"   播放速度 -->
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="1" returntohorizon="0.000"
+        delay="5.00" />
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0"
+        invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"
+        />
+    </panorama>
+    <!-- 主卧 -->
+    <panorama id="node3">
+        <view fovmode="0" pannorth="0">
+            <start pan="5.5" fov="80" tilt="1.5" />
+            <min pan="0" fov="80" tilt="-90" />
+            <max pan="360" fov="80" tilt="90" />
+        </view>
+        <userdata title="" datetime="" description="" copyright=""
+        tags="" author="" source="" comment="" info="" longitude="" latitude=""
+        />
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入次卧" target="" pan="-0.204688" skinid="room1" url="{node4}" id="Point03" tilt="1.43251"/>
+        </hotspots>
+        <media/>
+        <!-- tilesize="700" -->
+        <input tile0url="img/zhuwo_o_0.jpg" tile5url="img/zhuwo_o_5.jpg" tilesize="1200" tile4url="img/zhuwo_o_4.jpg" tile3url="img/zhuwo_o_3.jpg" tilescale="1.008333333333333" tile2url="img/zhuwo_o_2.jpg" tile1url="img/zhuwo_o_1.jpg">
+        </input>
+        <!-- speed="0.200"   播放速度 -->
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="1" returntohorizon="0.000"
+        delay="5.00" />
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0"
+        invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"
+        />
+    </panorama>
+    <!-- 次卧 -->
+    <panorama id="node4">
+        <view fovmode="0" pannorth="0">
+            <start pan="5.5" fov="80" tilt="1.5" />
+            <min pan="0" fov="80" tilt="-90" />
+            <max pan="360" fov="80" tilt="90" />
+        </view>
+        <userdata title="" datetime="" description="" copyright=""
+        tags="" author="" source="" comment="" info="" longitude="" latitude=""
+        />
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入儿童房" target="" pan="-0.204688" skinid="room2" url="{node5}" id="Point04" tilt="1.43251"/>
+        </hotspots>
+        <media/>
+        <!-- tilesize="700" -->
+        <input tile0url="img/ciwo_o_0.jpg" tile5url="img/ciwo_o_5.jpg" tilesize="1200" tile4url="img/ciwo_o_4.jpg" tile3url="img/ciwo_o_3.jpg" tilescale="1.008333333333333" tile2url="img/ciwo_o_2.jpg" tile1url="img/ciwo_o_1.jpg">
+        </input>
+        <!-- speed="0.200"   播放速度 -->
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="1" returntohorizon="0.000"
+        delay="5.00" />
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0"
+        invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"
+        />
+    </panorama>
+    <!-- 儿童房 -->
+    <panorama id="node5">
+        <view fovmode="0" pannorth="0">
+            <start pan="5.5" fov="80" tilt="1.5" />
+            <min pan="0" fov="80" tilt="-90" />
+            <max pan="360" fov="80" tilt="90" />
+        </view>
+        <userdata title="" datetime="" description="" copyright=""
+        tags="" author="" source="" comment="" info="" longitude="" latitude=""
+        />
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入卫生间" target="" pan="-0.204688" skinid="room3" url="{node6}" id="Point05" tilt="1.43251"/>
+        </hotspots>
+        <media/>
+        <!-- tilesize="700" -->
+        <input tile0url="img/children_o_0.jpg" tile5url="img/children_o_5.jpg" tilesize="1200" tile4url="img/children_o_4.jpg" tile3url="img/children_o_3.jpg" tilescale="1.008333333333333" tile2url="img/children_o_2.jpg" tile1url="img/children_o_1.jpg">
+        </input>
+        <!-- speed="0.200"   播放速度 -->
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="1" returntohorizon="0.000"
+        delay="5.00" />
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0"
+        invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"
+        />
+    </panorama>
+    <!-- 卫生间 -->
+    <panorama id="node6">
+        <view fovmode="0" pannorth="0">
+            <start pan="5.5" fov="80" tilt="1.5" />
+            <min pan="0" fov="80" tilt="-90" />
+            <max pan="360" fov="80" tilt="90" />
+        </view>
+        <userdata title="" datetime="" description="" copyright=""
+        tags="" author="" source="" comment="" info="" longitude="" latitude=""
+        />
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入客厅" target="" pan="-0.204688" skinid="toilet" url="{node1}" id="Point06" tilt="1.43251"/>
+        </hotspots>
+        <media/>
+        <!-- tilesize="700" -->
+        <input tile0url="img/toilet_o_0.jpg" tile5url="img/toilet_o_5.jpg" tilesize="1200" tile4url="img/toilet_o_4.jpg" tile3url="img/toilet_o_3.jpg" tilescale="1.008333333333333" tile2url="img/toilet_o_2.jpg" tile1url="img/toilet_o_1.jpg">
+        </input>
+        <!-- speed="0.200"   播放速度 -->
+        <autorotate speed="0.100" nodedelay="0.00" startloaded="1" returntohorizon="0.000"
+        delay="5.00" />
+        <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0"
+        invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"
+        />
+    </panorama>
+</tour>

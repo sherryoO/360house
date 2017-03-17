@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta content="telephone=no" name="format-detection">
+	<title>360全景看房</title>
+	<link rel="stylesheet" href="css/360.css" />
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/skin.js"></script>
+<!-- 	<script type="text/javascript" src="js/swfobject.js"></script>
+	<script type="text/javascript" src="js/pano2vr_player.js"></script> -->
+</head>
+<body>
+	<div id="container" style="width:100%;height:100%;">
+	<!--This content requires HTML5/CSS3, WebGL, or Adobe Flash Player Version 9 or higher.-->
+	</div>
+	<script>
+		$(function(){
+			$("#keting").click(function(){
+				alert("111");
+			})
+		})
+	</script>
+	<script type="text/javascript">
+	window.onload = function(){
+		// check for CSS3 3D transformations and WebGL
+		if (ggHasHtml5Css3D() || ggHasWebGL()) {
+		// use HTML5 panorama
+		
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			// 插入皮肤，loading加载
+			skin=new pano2vrSkin(pano);
+			pano.readConfigUrl("index.xml");
+			// hide the URL bar on the iPhone
+			hideUrlBar();
+			// setTimeout(function() { hideUrlBar(); }, 5);
+		} else 
+		if (swfobject.hasFlashPlayerVersion("10.0.0")) {
+			var flashvars = {};
+			var params = {};
+			// enable javascript interface
+			flashvars.externalinterface="1";
+			params.quality = "high";
+			params.bgcolor = "#ffffff";
+			params.allowscriptaccess = "sameDomain";
+			params.allowfullscreen = "true";
+			var attributes = {};
+			attributes.id = "pano";
+			attributes.name = "pano";
+			attributes.align = "middle";
+			flashvars.skinxml="skin.xml";
+			flashvars.panoxml="index.xml";
+			params.base=".";
+			// swfobject.embedSWF(
+			// 	"pano2vr_player.swf", "container", 
+			// 		windWidth, winHeight,
+			// 		"9.0.0", "", 
+			// 		flashvars, params, attributes);
+				
+			}
+	}
+	// hideUrlBar() begin
+	function hideUrlBar() {
+		// hide URL field on the iPhone/iPod touch
+		var p = String(navigator.platform);
+	
+		container = document.getElementById("container");
+		if( p === 'iPad' || p === 'iPhone' || p === 'iPod touch' ){
+			var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+			if (parseInt(v[1], 10)>=7) {
+				// iOS >=7
+				if (container) {
+					container.style.top=(0) + "px";
+					container.style.left=(0) + "px";
+					container.style.width=(window.innerWidth) + "px";
+					container.style.height=(window.innerHeight) + "px";
+					if (pano) {
+						pano.setViewerSize(window.innerWidth, window.innerHeight);
+					}						}
+				window.scrollTo(0, 0);
+			} else {
+				if (container) {
+					var cheight;
+					switch(window.innerHeight) {
+						case 208:cheight=268; break; // landscape
+						case 260:cheight=320; break; // landscape, fullscreen
+						case 336:cheight=396; break; // portrait, in call status bar
+						case 356:cheight=416; break; // portrait 
+						case 424:cheight=484; break; // portrait iPhone5, in call status bar
+						case 444:cheight=504; break; // portrait iPhone5 
+						default: cheight=window.innerHeight;
+					}
+					if ((cheight) && ((container.offsetHeight!=cheight) || (window.innerHeight!=cheight))) {
+						container.style.height=cheight + "px";
+					}
+				}
+				document.getElementsByTagName("body")[0].style.marginTop="1px";
+				window.scrollTo(0, 1);
+			}
+		}
+	}
+	// hideUrlBar() end  
+
+	</script>
+	<noscript>
+		<p><b>Please enable Javascript!</b></p>
+	</noscript>
+</body>
+</html>

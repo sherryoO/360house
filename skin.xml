@@ -1,0 +1,10 @@
+<skin marginleft="0" marginright="0" margintop="0" marginbottom="0">
+	<element x="-90" y="-2" anchor="4" width="180" height="6" id="loading image" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="image" imgurl="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAGCAYAAABqz7RMAAAAMUlEQVRYhe3SUQkAIBQEQbV/zcuhJYQHx0yC/did5C4ocaYD4CdDU8XQVDE0VQxNlQee5gO6BibsywAAAABJRU5ErkJggg==">
+	<action src="loaded" type="hide" value="" value2="" target="$self"/>
+	<element x="1" y="-29" anchor="0" width="200" height="20" id="loading text" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="<b>正在载入... $p%</b>" align="0" color="0x838383" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0">
+	</element>
+	<element x="0" y="0" anchor="0" width="181" height="6" id="loading bar" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="3" handcursor="0" type="rectangle" bordercolor="0xe5e5e5" borderalpha="1" backgroundcolor="0xc5c5c5" backgroundalpha="1" backgroundvisible="1" borderwidth="0" borderradius="0">
+	<modifier src="loading" type="scalex" offset="0" factor="1"/>
+	</element>
+	</element>
+</skin>
