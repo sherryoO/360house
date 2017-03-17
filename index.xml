@@ -15,11 +15,6 @@
           <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
           <hotspot title="进入厨房" target="" pan="20.1252" skinid="keting" url="{node2}" id="Point01" tilt="-1.72088"/>
         </hotspots>
-        <hotspots width="180" height="20" wordwrap="1">
-          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
-          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-          <hotspot title="进入测试" target="" pan="350.1252" skinid="ting" url="{node2}" id="Point07" tilt="-1.72088"/>
-        </hotspots>
         <media/>
         <!-- tilesize="700" -->
         <input tile0url="img/keting_o_0.jpg" tile5url="img/keting_o_5.jpg" tilesize="1200" tile4url="img/keting_o_4.jpg" tile3url="img/keting_o_3.jpg" tilescale="1.008333333333333" tile2url="img/keting_o_2.jpg" tile1url="img/keting_o_1.jpg">
