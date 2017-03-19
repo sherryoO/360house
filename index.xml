@@ -13,7 +13,12 @@
         <hotspots width="180" height="20" wordwrap="1">
           <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
           <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-          <hotspot title="进入厨房" target="" pan="20.1252" skinid="keting" url="{node2}" id="Point01" tilt="-1.72088"/>
+          <hotspot title="进入厨房" target="" pan="352" skinid="keting" url="{node2}" id="Point01" tilt="-1.72088"/>
+        </hotspots>
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入主卧" target="" pan="125" skinid="keting" url="{node3}" id="Point07" tilt="-1.72088"/>
         </hotspots>
         <media/>
         <!-- tilesize="700" -->
@@ -39,7 +44,22 @@
         <hotspots width="180" height="20" wordwrap="1">
           <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
           <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-          <hotspot title="进入主卧" target="" pan="-0.204688" skinid="kitchen" url="{node3}" id="Point02" tilt="1.43251"/>
+          <hotspot title="进入儿童房" target="" pan="227" skinid="kitchen" url="{node5}" id="Point02" tilt="-3"/>
+        </hotspots>
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入次卧" target="" pan="208" skinid="kitchen" url="{node4}" id="Point08" tilt="-2"/>
+        </hotspots>
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入客厅" target="" pan="265" skinid="kitchen" url="{node1}" id="Point10" tilt="-3"/>
+        </hotspots>
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入卫生间" target="" pan="281" skinid="kitchen" url="{node6}" id="Point11" tilt="-3"/>
         </hotspots>
         <media/>
         <!-- tilesize="700" -->
@@ -65,7 +85,7 @@
         <hotspots width="180" height="20" wordwrap="1">
           <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
           <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-          <hotspot title="进入次卧" target="" pan="-0.204688" skinid="room1" url="{node4}" id="Point03" tilt="1.43251"/>
+          <hotspot title="进入客厅" target="" pan="223" skinid="room1" url="{node1}" id="Point03" tilt="-2"/>
         </hotspots>
         <media/>
         <!-- tilesize="700" -->
@@ -91,7 +111,12 @@
         <hotspots width="180" height="20" wordwrap="1">
           <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
           <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-          <hotspot title="进入儿童房" target="" pan="-0.204688" skinid="room2" url="{node5}" id="Point04" tilt="1.43251"/>
+          <hotspot title="进入儿童房" target="" pan="106" skinid="room2" url="{node5}" id="Point04" tilt="-2"/>
+        </hotspots>
+        <hotspots width="180" height="20" wordwrap="1">
+          <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+          <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+          <hotspot title="进入卫生间" target="" pan="132" skinid="room2" url="{node6}" id="Point09" tilt="-2"/>
         </hotspots>
         <media/>
         <!-- tilesize="700" -->
@@ -117,7 +142,7 @@
         <hotspots width="180" height="20" wordwrap="1">
           <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
           <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-          <hotspot title="进入卫生间" target="" pan="-0.204688" skinid="room3" url="{node6}" id="Point05" tilt="1.43251"/>
+          <hotspot title="进入厨房" target="" pan="160" skinid="room3" url="{node2}" id="Point05" tilt="-1"/>
         </hotspots>
         <media/>
         <!-- tilesize="700" -->
@@ -143,7 +168,7 @@
         <hotspots width="180" height="20" wordwrap="1">
           <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="0" textcolor="0x00aaff" background="0" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
           <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-          <hotspot title="进入客厅" target="" pan="-0.204688" skinid="toilet" url="{node1}" id="Point06" tilt="1.43251"/>
+          <hotspot title="进入次卧" target="" pan="301" skinid="toilet" url="{node4}" id="Point06" tilt="-2"/>
         </hotspots>
         <media/>
         <!-- tilesize="700" -->
